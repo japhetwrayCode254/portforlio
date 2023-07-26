@@ -1,0 +1,211 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.social1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-inline: 20px;
+    width: 25%;
+    border-right: 2px solid rgb(207, 122, 200);
+}
+.social1 a{     
+    margin: 0 10px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    transition: 0.2s;
+
+}
+.social1 a:hover{
+    color: rgb(228, 185, 185);
+}
+.social2{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 40%;
+
+}
+.social2 a{
+    margin: 0 10px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    transition: 0.2s;
+}
+.social2 a:hover{
+    color: rgb(228, 185, 185);
+}
+.social2 .name{
+    color:rgb(93, 37, 223);
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.social3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 35%;
+}
+.social3 a{
+    margin: 0 10px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    transition: 0.2s;
+}
+.social3 a:hover{
+    color: rgb(228, 185, 185);
+}
+.talk{
+    color: rgb(197, 49, 160);
+    font-style: italic;
+    font-size: large;
+}
+
+.social3 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 40%;
+}
+.social-icon{
+    width: 50px;
+    color: rgb(125, 83, 204);
+}
+.social3 span{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.btn-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.btn1{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(61, 113, 226);
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.btn1:hover{
+    background-color: rgb(235, 125, 82);
+}
+.btn2{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(61, 113, 226);
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.btn2:hover{
+    background-color: rgb(241, 121, 73);
+}
+.c-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    color:  rgb(7, 84, 250);
+}
+.build-tools{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    color:  rgb(6, 7, 7);
+}
+.build-title{
+    font-size: 40px;
+    color:  rgb(7, 84, 250);
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.build-body{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color:  rgb(3, 3, 3);
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+.build-backend  ul li{
+    list-style: none;
+    color:  rgb(3, 3, 3);
+    font-weight: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-size: 20px; */
+    /* margin: 10px; */
+    transition: 0.2s;
+
+}
+.build-frontend ul li{
+    list-style: none;
+    color:  rgb(3, 3, 3);
+    font-weight: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-size: 20px; */
+    /* margin: 10px; */
+    transition: 0.2s;
+}
+.build-cms ul li{
+    list-style: none;
+    color:  rgb(3, 3, 3);
+    font-weight: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-size: 20px; */
+    /* margin: 10px; */
+    transition: 0.2s;
+}
+.build-backend{
+    margin-right: 40px;
+}
+.build-frontend{
+    margin-right: 40px;
+}
+.build-cms{
+    margin-right: 40px;
+}
+  
+.build-body span{
+    color:  rgb(89, 99, 228);
+}
